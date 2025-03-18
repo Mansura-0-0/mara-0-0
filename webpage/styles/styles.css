@@ -1,0 +1,192 @@
+/* external CSS */
+
+.logo{
+    float:left; 
+    margin-right: 10px; 
+}
+
+header{
+    background-image: url(../images/header_image.jpg);/*back image*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    color: #8E8E8E;
+    text-align: left;
+    border: 1px solid rgb(233, 233, 233);
+}
+
+header h1{
+    color: peru;
+}
+
+body{
+    font-family: Verdana;
+    background-color: black;
+}
+
+
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li{
+    list-style-type: none;
+    
+    display: inline;
+    padding: 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+background-color: #8E8E8E;
+}
+
+#active{
+    
+    background-color: rgb(148, 200, 148);
+}
+
+#content{
+    float: left;
+    width: 100%;
+    
+    text-align: justify;
+}
+
+#bigPic {
+    height: 700px;
+    width: 100%
+}
+
+#scroll {
+    height: 500px;
+    overflow: auto;
+}
+
+.white
+{
+    color: white;
+    text-align: center;
+}
+
+aside{
+    width: 19.7%;
+    float: right;
+    color: white;
+    border: 1px solid rgb(253, 253, 253);
+}
+
+aside ul li{
+    list-style-type: none;
+}
+
+aside ul li a{
+
+    color: blue;
+    text-decoration: none;
+}
+
+.textLeft{
+    color: white;
+    text-align: center;
+
+
+}
+
+.image {
+    float: left;
+    padding-right: 5px;
+}
+
+h3{
+    color: white;
+}
+
+.colDetail{
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+p{
+    color: white;
+}
+
+.centered {
+    color: white;
+    text-align: center;
+    border: 1px solid purple;
+}
+
+.videoContent {
+    float: left;
+    width: 49.5%;
+    border: 1px solid gold;
+    text-align: center;
+    height: 500px;
+}
+
+.black{
+    color: black;
+}
+
+.bacon {
+    background-image: url(../images/bacon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    text-align: left;
+    border: 1px solid purple;
+}
+
+.carrots {
+    background-image: url(../images/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    text-align: left;
+    border: 1px solid purple;
+}
+
+.eggs {
+    background-image: url(../images/eggs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    text-align: left;
+    border: 1px solid purple;
+}
+
+footer{
+    clear: both;
+    border: 1px solid orange;
+    background-color: gray;
+    text-align: center;
+}
+
+footer ul{
+    text-align: center;
+}
+
+footer ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+

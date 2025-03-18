@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+Date Created : Feb 2025
+Purpose      : Company selling products html5 web page
+-->
+
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content ="This is an example website for a farm tour">
+    <meta name="keywords" content ="restaurant, menu, venison">
+    <title>Foodmarket Sligo</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/gif">
+</head>
+<body>
+    <header>
+        <img class= "logo" src="images/logo.png" alt="logo" width="110">
+        <h1>Foodmarket Sligo</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li id="active"><a href="menu.html">Menu</a></li>
+            <li><a href="videopage.html">Video Tour</a></li>
+            <li><a href="audiopage.html">Sounds of Food</a></li>
+        </ul>
+    </nav>
+    
+<main>
+    <section class="videoContent">
+        <h2 class="white">Video from YouTube using iframe and video tag</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Y1yKQGOIGJw?si=d8BUsa5mezzWi6vg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section class="videoContent">
+        <h2 class="white">Video from mp4 file</h2>
+        <video controls loop width="300" height="369">
+            <source src="video/food.mp4" type="video/mp4" />
+        </video>
+    </section>
+
+    <section>
+        <h2 class="textLeft">About Our Food</h2>
+        <p>Food is any substance consumed by an organism for nutritional support. Food is usually of plant, animal, or fungal origin and contains essential nutrients such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth. Different species of animals have different feeding behaviours that satisfy the needs of their metabolisms and have evolved to fill a specific ecological niche within specific geographical contexts.</p>
+        <a href="https://en.wikipedia.org/wiki/Food">Click here to learn more!</a>
+    </section>
+            
+
+
+        </main>
+<footer id="footer">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="videopage.html">Video Tour</a></li>
+        <li><a href="audiopage.html">Sounds of Food</a></li>
+    </ul>
+    <p>&copy;Foodmarket Sligo 2025</p>
+</footer>
+</body>
+</html>
