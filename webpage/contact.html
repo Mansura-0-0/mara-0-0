@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Valentino's - The best takeaway in Tubbercurry, offering delicious grilled food, pizza, and more.">
+        <meta name="keywords" content="menu, food, Sligo, Valentino's, takeaway, grill, pizza, kebab">
+        <meta name="author" content="Valentino's Takeaway">
+        <title>Valentino's - Delicious Food in Tubbercurry</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="shortcut icon" href="images/logofavicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="images/logo.JPG" alt="Valentino's Logo" width="100">
+            <h1>
+                <span class="val">VAL</span><span class="ent">ENT</span><span class="inos">INO'S</span> Takeaway
+            </h1>
+        </header>
+        
+        <nav>
+            <ul>
+                <li ><a href="index.html">Home</a></li>
+                <li ><a href="menu.html">Menu</a></li>
+                <li><a href="https://valentinostakeaway.ie/delivery">Order</a></li>
+                <li id="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    <main>
+        <a href="#bottom" class="scroll-bottom">Go to Bottom</a>
+
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <p>Have a question or feedback? Fill out the form below, and we'll get back to you soon!</p>
+            
+            <form action="submit.html" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
+
+                <label>Gender:</label><br>
+            <div class="gender-options">
+            <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other" checked> <label for="other">Other</label>
+            </div>
+
+                
+
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message (max 200 characters)" maxlength="200"></textarea>
+                <br><br>
+
+                <button  type="submit">Submit</button>
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+
+        <section class="opening-hours">
+            <h2>Opening Hours</h2>
+            <table class="hours-table">
+                <tr>
+                    <th>Day</th>
+                    <th>Pickup</th>
+                    <th>Delivery</th>
+                </tr>
+                <tr><td>Monday</td><td>16:00 - 22:00</td><td>16:00 - 22:00</td></tr>
+                <tr><td>Tuesday</td><td colspan="2">Closed</td></tr>
+                <tr><td>Wednesday</td><td>16:00 - 23:00</td><td>16:00 - 23:00</td></tr>
+                <tr><td>Thursday</td><td>16:00 - 23:00</td><td>16:00 - 23:00</td></tr>
+                <tr><td>Friday</td><td>16:00 - 23:00</td><td>16:00 - 23:00</td></tr>
+                <tr><td>Saturday</td><td>16:00 - 23:00</td><td>16:00 - 23:00</td></tr>
+                <tr><td>Sunday</td><td>16:00 - 23:00</td><td>16:00 - 23:00</td></tr>
+
+            </table>
+        </section>
+
+        <section class="contact-details">
+            <h2>Find Us</h2>
+            <p><strong>Address:</strong> Emmett St, Tobercurry, Co. Sligo, F91 YW11, Ireland</p>
+            <p><strong>Call us:</strong> <a href="tel:0719120788">071 912 0788</a></p>
+        </section>
+
+        <section class="map">
+            <h2>Our Location</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.983468562095!2d-8.73881432323652!3d54.04562722280286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485e39f3b136da1f%3A0x1cf951d6f8607a9b!2sValentino&#39;s%20Takeaway!5e0!3m2!1sen!2sie!4v1711200000000!5m2!1sen!2sie" 
+                width="100%" height="400" style="border:0;" allowfullscreen loading="lazy">
+            </iframe>
+        </section>
+
+       
+    </main>
+    <a href="#top" class="scroll-top">Go to Top</a>
+    <footer>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <p>&copy; 2025 Valentino's Tubbercurry. All rights reserved.</p>
+    </footer>
+</body>
+</html>
