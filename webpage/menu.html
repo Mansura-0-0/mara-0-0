@@ -1,108 +1,109 @@
 <!DOCTYPE html>
-<!--
-Date Created : March 2025
-Purpose      : Restaurant html5 web page
--->
-
-
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content ="This is an example website for a farm tour">
-        <meta name="keywords" content ="menu, food, Sligo">
-        <title>Valentino's</title>
+        <meta name="description" content="Valentino's - The best takeaway in Tubbercurry, offering delicious grilled food, pizza, and more.">
+        <meta name="keywords" content="menu, food, Sligo, Valentino's, takeaway, grill, pizza, kebab">
+        <meta name="author" content="Valentino's Takeaway">
+        <title>Valentino's - Delicious Food in Tubbercurry</title>
         <link rel="stylesheet" href="styles/styles.css">
-        <link rel="shortcut icon" href="images/logofavicon.ico" type="image/gif">
+        <link rel="shortcut icon" href="images/logofavicon.ico" type="image/x-icon">
     </head>
-
     <body>
         <header>
-            <img class= "logo" src="images/logo.JPG" alt="logo" width="300">
-            <h1></h1>
+            <img class="logo" src="images/logo.JPG" alt="Valentino's Logo" width="100">
+            <h1>
+                <span class="val">VAL</span><span class="ent">ENT</span><span class="inos">INO'S</span> Takeaway
+            </h1>
         </header>
+        
         <nav>
             <ul>
-                <li id="active"><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
+                <li ><a href="index.html">Home</a></li>
+                <li id="active"><a href="menu.html">Menu</a></li>
                 <li><a href="https://valentinostakeaway.ie/delivery">Order</a></li>
-                <li><a href="audiopage.html">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-
-        <main>
-            <h2 class="textLeft">Our Promise</h2>
-            <section>
-                <p>
-                    A promise is a commitment by someone to do or not do something. As a noun promise means a declaration assuring that one will or will not do something. As a verb it means to commit oneself by a promise to do or give.[1] It can also mean a capacity for good, similar to a value that is to be realized in the near future.[2]
-
-                    In the law of contract, an exchange of promises is usually held to be legally enforceable, according to the Latin maxim pacta sunt servanda..
-                </p>
-                <a href="https://en.wikipedia.org/wiki/Promise">Click here to learn more</a>
-            </section>
-           
-            <section class="centered">
-                <h2>Menu</h2>
-                <img src="images/menu1.JPG" alt="menu" width="100%"/>
-                <img src="images/menu2.JPG" alt="menu"width=100%/>
-              </section>
-
-            <section class="centered">
-                <h2>Our Recommendation</h2>
-                <img src="images/king.JPG" alt="fried camembert" width="50%"/>
-                <p class="textLeft"><h3>King Kong burger</h3>se that imitates[1] .</p>
-            </section>
-
-            <section class="centered">
-                <h2>             </h2>
-                <img src="images/fishAndChips.JPG" alt="fried camembert" width="50%"/>
-                <p class="textLeft"><h3>Fish And Chips</h3>se that imitates[1] .</p>
-            </section>
-
-            <section class="centered">
-                <h2>             </h2> 
-                <img src="images/sheek.jpg" alt="fried camembert" width="50%"/>
-                <p class="textLeft"><h3>Sheek Kebab</h3>se that imitates[1] .</p>
-            </section>
-            <section class="centered">
-                <h2>             </h2> 
-                <img src="images/grillchips.jpg" alt="fried camembert" width="50%"/>
-                <p class="textLeft"><h3>King Kong burger</h3>se that imitates[1] .</p>
-            </section>
-            <section class="centered">
-                <h2>             </h2> 
-                <img src="images/burgerMeal.JPG" alt="fried camembert" width="50%"/>
-                <p class="textLeft"><h3>King Kong burger</h3>se that imitates[1] .</p>
-            </section>
-            <section class="centered">
-                <h2>             </h2> 
-                <img src="images/spicebag.JPG" alt="fried camembert" width="50%"/>
-                <p class="textLeft"><h3>King Kong burger</h3>se that imitates[1] .</p>
-            </section>
-            <section class="centered">
-                <h2>             </h2> 
-                <img src="images/grillrice.jpg" alt="fried camembert" width="50%"/>
-                <p class="textLeft"><h3>King Kong burger</h3>se that imitates[1] .</p>
-            </section>
-            <section class="centered">
-                <h2>             </h2> 
-                <img src="images/grillbread.jpg" alt="fried camembert" width="50%"/>
-                <p class="textLeft"><h3>King Kong burger</h3>se that imitates[1] .</p>
-            </section>
-            
-            
-
-               
         
-        </main>
-        <footer id="footer">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="videopage.html">Video Tour</a></li>
-                <li><a href="audiopage.html">Sounds of Food</a></li>
-            </ul>
-            <p>&copy;Foodmarket Sligo 2025</p>
-        </footer>
-    </body>
+
+    <main>
+        <a href="#bottom" class="scroll-bottom">Go to Bottom</a>
+        <section class="menu-intro">
+            <h2>Our Menu</h2>
+            <p>Explore our wide range of delicious meals. From freshly grilled kebabs to crispy pizza, we have something for everyone!</p>
+        </section>
+
+        <!-- Menu Images -->
+        <section class="menu-images">
+            <img src="images/menu1.JPG" alt="Valentino's Menu Page 1" class="menu-img">
+            <img src="images/menu2.JPG" alt="Valentino's Menu Page 2" class="menu-img">
+        </section>
+
+        <!-- Special Recommendations -->
+        <div class="recommendations">
+            <h2>Our Special Recommendations</h2>
+
+            <div  class="dish">
+                <img src="images/king.JPG" alt="King Kong Burger">
+                <h3>King Kong Burger</h3>
+                <p>A delicious and filling burger packed with flavors.</p>
+            </div >
+
+            <div  class="dish">
+                <img src="images/fishAndChips.JPG" alt="Fish and Chips">
+                <h3>Fish and Chips</h3>
+                <p>Freshly battered fish served with crispy fries.</p>
+            </div >
+
+            <div  class="dish">
+                <img src="images/sheek.jpg" alt="Sheek Kebab">
+                <h3>Sheek Kebab</h3>
+                <p>Grilled to perfection with aromatic spices.</p>
+            </div >
+
+            <div  class="dish">
+                <img src="images/grillchips.jpg" alt="Grilled Meat with Chips">
+                <h3>Grilled Meat with Chips</h3>
+                <p>Tender and juicy grilled meat served with fries.</p>
+            </div >
+
+            <div  class="dish">
+                <img src="images/burgerMeal.JPG" alt="Burger Meal">
+                <h3>Burger Meal</h3>
+                <p>A satisfying burger combo with sides.</p>
+            </div >
+
+            <div class="dish">
+                <img src="images/spicebag.JPG" alt="Spice Bag">
+                <h3>Spice Bag</h3>
+                <p>A delicious mix of chicken, fries, and spices.</p>
+            </div >
+
+            <div  class="dish">
+                <img src="images/grillrice.jpg" alt="Grilled Meat with Rice">
+                <h3>Grilled Meat with Rice</h3>
+                <p>A perfect balance of protein and grains.</p>
+            </div >
+
+            <div class="dish">
+                <img src="images/grillbread.jpg" alt="Grilled Meat with Bread">
+                <h3>Grilled Meat with Bread</h3>
+                <p>Served with fresh, warm bread.</p>
+            </div>
+        </div>
+   
+        <
+    </main>
+    <a href="#top" class="scroll-top">Go to Top</a>
+    <footer>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <p>&copy; 2025 Valentino's Tubbercurry. All rights reserved.</p>
+    </footer>
+</body>
 </html>
