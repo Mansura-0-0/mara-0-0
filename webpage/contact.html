@@ -1,3 +1,8 @@
+<!--
+
+Date Created : March 2025
+Purpose      : Restaurant html5 web page
+-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -27,22 +32,22 @@
             </ul>
         </nav>
     <main>
-        <a href="#bottom" class="scroll-bottom">Go to Bottom</a>
+        <a href="#bottom" class="scroll-btn">Go to Bottom</a>
 
         <section class="contact-form">
             <h2>Contact Us</h2>
             <p>Have a question or feedback? Fill out the form below, and we'll get back to you soon!</p>
             
-            <form action="https://mansura-0-0.github.io/submit/submit.html" method="POST">
+            <form action="submit.html" method="POST">
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
 
                 <label>Gender:</label><br>
-            <div class="gender-options">
+            <section class="gender-options">
             <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label>
             <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label>
             <input type="radio" id="other" name="gender" value="other" checked> <label for="other">Other</label>
-            </div>
+            </section>
 
                 
 
@@ -78,7 +83,9 @@
             <h2>Find Us</h2>
             <p><strong>Address:</strong> Emmett St, Tobercurry, Co. Sligo, F91 YW11, Ireland</p>
             <p><strong>Call us:</strong> <a href="tel:0719120788">071 912 0788</a></p>
+            
         </section>
+        
 
         <section class="map">
             <h2>Our Location</h2>
@@ -90,7 +97,11 @@
 
        
     </main>
-    <a href="#top" class="scroll-top">Go to Top</a>
+    <a href="#top" class="scroll-btn">Go to Top</a>
+
+    
+    <section id="bottom"></section>
+
     <footer>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -101,3 +112,4 @@
     </footer>
 </body>
 </html>
+
